@@ -11,10 +11,6 @@ export class PasswordComponent {
   getPasswordStrength() {
     const length = this.password.length;
 
-    /*if (length === 0) {
-      return 'gray';
-    }*/
-
     if ( length > 0 && length < 8) {
       return 'weak';
     }
